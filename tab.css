@@ -4,7 +4,10 @@
 .tab-nav {
   display: flex;
 }
-.tab-nav-item {}
+.tab-nav-item {
+  background: #ccc;
+  color: #000;
+}
 .tab-nav-item.is-active {}
 .tab-contents {}
 .tab-contents-item {}
