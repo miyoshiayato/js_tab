@@ -1,4 +1,6 @@
-.tab {}
+.tab {
+  width: 500px;
+}
 .tab-nav {}
 .tab-nav-item {}
 .tab-nav-item.is-active {}
