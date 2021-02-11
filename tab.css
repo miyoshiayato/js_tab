@@ -1,7 +1,9 @@
 .tab {
   width: 500px;
 }
-.tab-nav {}
+.tab-nav {
+  display: flex;
+}
 .tab-nav-item {}
 .tab-nav-item.is-active {}
 .tab-contents {}
