@@ -14,5 +14,6 @@
 .tab-nav-item.is-active {}
 .tab-contents {
   border: 1px solid #ccc;
+  padding: 20px;
 }
 .tab-contents-item {}
