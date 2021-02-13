@@ -18,6 +18,10 @@
     //クリックされたnavとそのdataを取得
     const $this = e.target;
     const targetVal = $this.dataset.nav;
+
+    //対象のコンテンツをアクティブ化する
+    $tab.querySelectorAll('[data-content="' + targetVal + '"]')[0].style.display = 'block';
+    $nav[targetVal].classList.add(ACTIVE_CLASS);
   };
 
    //全nav要素に対して関数を適応・発火
