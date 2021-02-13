@@ -19,6 +19,13 @@
     const $this = e.target;
     const targetVal = $this.dataset.nav;
 
+    let index = 0;
+    while(index < navLen){
+      $content[index].style.display = 'none';
+      $nav[index].classList.remove(ACTIVE_CLASS);
+      index++;
+    }
+
     //対象のコンテンツをアクティブ化する
     $tab.querySelectorAll('[data-content="' + targetVal + '"]')[0].style.display = 'block';
     $nav[targetVal].classList.add(ACTIVE_CLASS);
