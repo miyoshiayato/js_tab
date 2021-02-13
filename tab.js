@@ -19,6 +19,7 @@
     const $this = e.target;
     const targetVal = $this.dataset.nav;
 
+    //対象外のnav, content全て一旦リセットする
     let index = 0;
     while(index < navLen){
       $content[index].style.display = 'none';
