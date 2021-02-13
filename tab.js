@@ -16,4 +16,10 @@
     e.preventDefault();
   };
 
+  let index = 0;
+  while(index < navLen){
+    $nav[index].addEventListener('click', (e) => handleClick(e));  
+    index++;
+  }
+
 };();
