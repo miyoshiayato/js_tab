@@ -5,6 +5,7 @@
   const $nav = $tab.querySelectorAll('[data-nav]');
   const $content = $tab.querySelectorAll('[data-content]');
   const ACTIVE_CLASS = 'is-active';
+  const navLen = $nav.length;
 
   //初期化
   const init = () => {
