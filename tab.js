@@ -6,7 +6,7 @@
   const $content = $tab.querySelectorAll('[data-content]');
   const ACTIVE_CLASS = 'is-active';
   const navLen = $nav.length;
-
+  
   //初期化
   const init = () => {
     $content[0].style.display = 'block';
@@ -34,11 +34,11 @@
     $nav[targetVal].classList.add(ACTIVE_CLASS);
   };
 
-   //全nav要素に対して関数を適応・発火
+  //全nav要素に対して関数を適応・発火
   let index = 0;
   while(index < navLen){
     $nav[index].addEventListener('click', (e) => handleClick(e));  
     index++;
   }
 
-};();
+})();
