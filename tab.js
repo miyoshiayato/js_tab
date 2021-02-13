@@ -10,5 +10,10 @@
     $content[0].style.display = 'block';
   };
   init();
-  
-  };();
+
+  //クリックしたら起こるイベント
+  const handleClick = (e) => {
+    e.preventDefault();
+  };
+
+};();
